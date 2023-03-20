@@ -1,5 +1,4 @@
-This is a basic implementation of A* pathfinding algorithm. For the algorithm to work, 
-the h value, that is, the distance to the target node, the g value, the distance to the starting node, 
-and finally the f value, that is, the sum of the g and h values, must be defined for 
-each neighbour node until it reaches the target node. When the searching part ends, 
-algorithm will retrace the path from the end to start node and finds the shortest path.
+This is a basic implementation of A* pathfinding algorithm. For the algorithm to work, firstly,
+you should set your wall positions, mapWidth and mapHeight according to your need. Lastly,
+the transform of your seeker game object as startTransform, the transform of your target 
+game object as targetTransform and lastly,from the instector. 
